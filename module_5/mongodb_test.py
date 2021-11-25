@@ -3,6 +3,7 @@ url = "mongodb+srv://admin:admin@cluster0.wcq8x.mongodb.net/pytech?retryWrites=t
 client = MongoClient(url)
 db = client.pytech
 print(db.list_collection_names)
+
 #this is the part I don't get, it prints out the shard URLs instead of the collection names along with other extraneous data.
 #Database.list_collection_names of 
 # Database(MongoClient
