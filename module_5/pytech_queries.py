@@ -21,7 +21,6 @@ print(docs)
 #What I just did output the actual list of data instead of the cursor instance in the Python Debug Window.
 
 #finding a document and printing it out
-db.collection_names
 doc2 = collection.find_one({"student_id":"1007"})
 #collection_name does not exist and collection_names is deprecated.
 #reference directly to the collection to take effect with find_one() command
